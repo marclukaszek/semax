@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLin, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/semaxlogo.png';
-import wine_glass from '../../assets/wine_glass.png';
-import wine_bottle from '../../assets/wine_bottle.png';
 import './navbar.css';
 
 const Menu = () => (

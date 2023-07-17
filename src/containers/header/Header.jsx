@@ -1,9 +1,6 @@
 import React from 'react'
 import './header.css';
 import people from '../../assets/people.png'
-import ai from '../../assets/ai.png'
-import wine_glass from '../../assets/wine_glass.png'
-import homeImg from '../../assets/home.jpeg'
 import broszura from '../../assets/broszura.png'
 
 const Header = () => {
