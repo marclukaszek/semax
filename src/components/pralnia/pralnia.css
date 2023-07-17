@@ -1,0 +1,22 @@
+.background{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(46,84,155); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(46,84,155,1) 0%, rgba(44,83,158,1) 38%, rgba(32,75,155,1) 56%, rgba(32,75,155,1) 56%, rgba(83,99,155,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(46,84,155,1) 0%,rgba(44,83,158,1) 38%,rgba(32,75,155,1) 56%,rgba(32,75,155,1) 56%,rgba(83,99,155,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(46,84,155,1) 0%,rgba(44,83,158,1) 38%,rgba(32,75,155,1) 56%,rgba(32,75,155,1) 56%,rgba(83,99,155,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e549b', endColorstr='#53639b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.links_container {
+    padding: 2rem;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links_container p{
+    color: white;
+}

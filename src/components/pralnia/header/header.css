@@ -1,0 +1,40 @@
+.header{
+    padding-top: 5rem;
+    display: flex;;
+}
+
+.header-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+
+.header-content h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 75px;
+
+    letter-spacing: -0.04em;
+}
+.header-content p{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-text);
+    margin-top: 1.5rem;
+
+}
+.directions{
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.directions p{
+    color: white;
+    font-size: 24px;
+}
