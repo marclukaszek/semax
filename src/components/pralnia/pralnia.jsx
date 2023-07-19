@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {Nav, Header} from '../pralnia';
+import {Nav, Header, Ofert} from '../pralnia';
 import './pralnia.css';
 
 
@@ -9,7 +9,7 @@ import './pralnia.css';
 const Pralnia = () => {
   return (
     <div className='background'>
-    <><Nav /><Header /></>
+    <><Nav /><Header /><Ofert /></>
     </div>
   )
 }

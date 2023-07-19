@@ -1,12 +1,15 @@
 import React from "react";
 import './nav.css'
+import logo from '../assets/semaxlogo.png'
 
 const Menu = () => (
     <>
-            <p><a href='#home'>Home</a></p>
-            <p><a href='#wgpt3'>Oferta</a></p>
-            <p><a href='#possibility'>Szewc</a></p>
-            <p>test</p>
+            <img src={logo}></img>
+            <p><a href='#home'>HOME</a></p>
+            <p><a href='#ofert'>OFERTA</a></p>
+            <p><a href='#possibility'>SZEWC</a></p>
+            <p><a href='#galeria'>GALERIA</a></p>
+            <p><a href='#kontakt'>KONTAKT</a></p>
     </>
   )
 

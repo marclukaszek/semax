@@ -1,0 +1,82 @@
+.main {
+    background: radial-gradient(circle at 3% 25%,#002853 0,#040c18 100%);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem
+  }
+  
+  .title {
+    text-align: center;
+    letter-spacing: 0.2em;
+  }
+  
+  .title h1 {
+    font-family: var(--font-family);
+    color: wheat;
+    font-weight: 1200;
+    padding: 1rem;
+    font-size: 60px;
+  }
+  
+  .content {
+    display: flex;
+  }
+  
+  .boxa1 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  
+  .boxa1-header {
+    text-align: center;
+  }
+  
+  .boxa1-header h1 {
+    font-family: var(--font-family);
+    margin-top: 0;
+    color: white;
+  }
+  
+  .boxa1-content {
+    font-family: var(--font-family);
+    margin-left: 1rem;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .boxa1-half {
+    display: flex;
+  }
+  
+  .boxa1-half-content {
+    font-family: var(--font-family);
+    flex: 1;
+    margin-left: 2rem;
+    text-align:start;
+    color: white;
+  }
+  
+  .boxb {
+    flex-basis: 50%;
+    max-width: 50%;
+    margin-left: 1rem;
+    color: white;
+  }
+  .boxb h1{
+    font-family: var(--font-family);
+    text-align: center;
+  }
+  .boxb-content{
+    font-family: var(--font-family);
+    margin-left: 1rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  .boxa1-half p{
+    font-family: var(--font-family);
+    padding: 0.03em;
+  }
