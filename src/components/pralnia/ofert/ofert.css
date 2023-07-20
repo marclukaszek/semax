@@ -7,76 +7,74 @@
     margin-left: 4rem;
     margin-right: 4rem
   }
-  
-  .title {
-    text-align: center;
-    letter-spacing: 0.2em;
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 0.7fr 0.7fr;
+    grid-template-rows: 0.6fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "title title title title"
+      "pranie pranie pranie-image pranie-image"
+      "pranie-oferta1 pranie-ofrta2 pranie-image pranie-image"
+      "dywany dywany dywany-image dywany-image"
+      "dywany dywany dywany-image dywany-image";
   }
   
-  .title h1 {
-    font-family: var(--font-family);
-    color: wheat;
-    font-weight: 1200;
-    padding: 1rem;
-    font-size: 60px;
-  }
+.title { grid-area: title; text-align: center; }
   
-  .content {
-    display: flex;
-  }
-  
-  .boxa1 {
-    flex-basis: 50%;
-    max-width: 50%;
-  }
-  
-  .boxa1-header {
-    text-align: center;
-  }
-  
-  .boxa1-header h1 {
-    font-family: var(--font-family);
-    margin-top: 0;
-    color: white;
-  }
-  
-  .boxa1-content {
-    font-family: var(--font-family);
-    margin-left: 1rem;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  .boxa1-half {
-    display: flex;
-  }
-  
-  .boxa1-half-content {
-    font-family: var(--font-family);
-    flex: 1;
-    margin-left: 2rem;
-    text-align:start;
-    color: white;
-  }
-  
-  .boxb {
-    flex-basis: 50%;
-    max-width: 50%;
-    margin-left: 1rem;
-    color: white;
-  }
-  .boxb h1{
-    font-family: var(--font-family);
-    text-align: center;
-  }
-  .boxb-content{
-    font-family: var(--font-family);
-    margin-left: 1rem;
-    padding: 1rem;
-    text-align: center;
-  }
-  .boxa1-half p{
-    font-family: var(--font-family);
-    padding: 0.03em;
-  }
+.pranie { grid-area: pranie; text-align: center; }
+.pranie-oferta1 { grid-area: pranie-oferta1; text-align: start; margin-left: 0.7rem;}
+.pranie-ofrta2 { grid-area: pranie-ofrta2; text-align: start;}
+.pranie-image { grid-area: pranie-image; align-content: center; display: flex; justify-content: center; align-items: center;}
+.dywany { grid-area: dywany; text-align: center; margin-top: 3rem;}
+.dywany-image { grid-area: dywany-image; margin-top: 3rem; display: flex; justify-content: center; align-items: center;}
+
+.title h1{
+  font-family: var(--font-family);
+  color: wheat;
+  font-weight: 1200;
+  font-size: 60px;
+}
+.pranie h1{
+  font-family: var(--font-family);
+  color: white;
+  margin-bottom: 2rem;
+  letter-spacing: 0.02em;
+}
+.pranie p{
+  font-family: var(--font-family);
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+.pranie-oferta1 p{
+  font-family: var(--font-family);
+  text-align: start;
+  color: white;
+  padding: 0.1em;
+}
+.pranie-ofrta2 p{
+  font-family: var(--font-family);
+  text-align: start;
+  color: white;
+  padding: 0.1em;
+}
+.pranie-image img{
+  max-height: 400px;
+}
+.dywany h1{
+  font-family: var(--font-family);
+  color: white;
+  margin-bottom: 2rem;
+  letter-spacing: 0.02em;
+}
+.dywany p{
+  font-family: var(--font-family);
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 0.7rem;
+}
+.dywany-image img{
+  max-height: 400px;
+}
