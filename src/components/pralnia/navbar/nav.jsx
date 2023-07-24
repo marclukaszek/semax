@@ -7,7 +7,7 @@ const Menu = () => (
             <img src={logo}></img>
             <p><a href='#home'>HOME</a></p>
             <p><a href='#ofert'>OFERTA</a></p>
-            <p><a href='#possibility'>SZEWC</a></p>
+            <p><a href='#shoes'>SZEWC</a></p>
             <p><a href='#galeria'>GALERIA</a></p>
             <p><a href='#kontakt'>KONTAKT</a></p>
     </>
