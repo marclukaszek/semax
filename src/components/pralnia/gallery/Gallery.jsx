@@ -89,7 +89,7 @@ const Gallery = () => {
               <div className="swiper-zoom-container" onClick={() => openZoom(index)}>
                 <img
                   src={url}
-                  style={{ width: 'calc((98vw / 5) - 5px)', height: '350px', cursor: 'zoom-in' }}
+                  style={{ width: 'calc((98vw / 5) - 5px)', height: '350px', cursor: 'zoom-in', borderRadius: '5px'}}
                   alt={`Image ${index}`}
                 />
               </div>

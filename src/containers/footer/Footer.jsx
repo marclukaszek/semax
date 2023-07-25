@@ -1,8 +1,6 @@
 import React from 'react'
 import './footer.css';
-import gpt3Logo from '../../assets/logo.svg'
 import logo from '../../assets/semaxlogo.png'
-import { Maximize } from '@material-ui/icons';
 
 const Footer = () => {
   return (
